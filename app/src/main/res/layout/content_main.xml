@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.jp.fristandroidapp.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/fl_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <View
+        android:layout_below="@+id/fl_fragment"
+        style="@style/line_horizontal_style"/>
+    <RadioGroup
+         android:orientation="horizontal"
+         android:layout_width="match_parent"
+         android:layout_height="48dp">
+         <RadioButton
+             android:id="@+id/rb_home"
+             android:text="首页"
+             style="@style/tab_menu_item" />
+         <RadioButton
+             android:id="@+id/rb_station"
+             android:text="站点"
+             style="@style/tab_menu_item"
+       />
+         <RadioButton
+             android:id="@+id/rb_theam"
+             android:text="主题"
+             style="@style/tab_menu_item"
+           />
+         <RadioButton
+             android:id="@+id/rb_weekNews"
+             android:text="周刊"
+             style="@style/tab_menu_item"
+            />
+     </RadioGroup>
+
+
+
+
+</LinearLayout>

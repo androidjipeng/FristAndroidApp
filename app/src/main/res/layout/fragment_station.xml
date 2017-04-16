@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.jp.fristandroidapp.fragment.StationFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <com.jp.fristandroidapp.widget.adview.AdViewFlow
+                android:id="@+id/ad_shop_flow"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/transparent"
+                android:gravity="center">
+
+                <com.jp.fristandroidapp.widget.adview.CircleFlowIndicator
+                    android:id="@+id/circle_flow_indicator"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:padding="2dip"
+                    android:visibility="gone"
+                    app:activeColor="@color/bg_common_red_color"
+                    app:activeType="fill"
+                    app:circleSeparation="20dip"
+                    app:inactiveColor="@color/white"
+                    app:inactiveType="fill"
+                    app:radius="4dip" />
+            </FrameLayout>
+        </FrameLayout>
+
+    </RelativeLayout>
+</FrameLayout>

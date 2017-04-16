@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="gray">#999999</color>
+    <color name="green">#ff0f9d58</color>
+    <drawable name="normal_states">@color/gray</drawable>
+    <drawable name="checked_states">@color/green</drawable>
+    <color name="white">#ffffff</color>
+    <color name="line">#CCCCCC</color>
+    <color name="blue">#22aaff</color>
+    <color name="pink_color_selected">#FF00FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="greenl">#65e17b</color>
+    <color name="bg_common_red_color">#ff4630</color>
+</resources>
