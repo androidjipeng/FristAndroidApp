@@ -52,6 +52,7 @@ public class PagerFragment1 extends Fragment {
 
         Log.e("jp","git");
         Log.e("jp","git");
+        Log.e("jp","我是2017的那个人提交的测试git");
         Log.e("jp","new===========git");
         Log.e("jp","new===========git====2017416测试");
         Log.e("jp","new===========git====我是最新分支");
