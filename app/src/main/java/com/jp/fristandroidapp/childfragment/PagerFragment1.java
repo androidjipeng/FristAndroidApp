@@ -52,8 +52,7 @@ public class PagerFragment1 extends Fragment {
 
         Log.e("jp","git");
         Log.e("jp","git");
-
-        /*----------------*/
+        Log.e("jp","new===========git");
     }
 
     @Override
