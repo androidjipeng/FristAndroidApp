@@ -50,6 +50,7 @@ public class PagerFragment1 extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        Log.e("jp","git");
     }
 
     @Override
