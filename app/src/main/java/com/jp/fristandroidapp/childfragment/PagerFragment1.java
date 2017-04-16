@@ -51,6 +51,7 @@ public class PagerFragment1 extends Fragment {
         super.onCreate(savedInstanceState);
 
         Log.e("jp","git");
+        Log.e("jp","git");
 
         /*----------------*/
     }
