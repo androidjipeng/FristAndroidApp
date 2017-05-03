@@ -15,7 +15,7 @@ public class RecycleviewTowlayoutBaseAdapter extends RecyclerView.Adapter<Recycl
 
 
     private Context context;
-    private ArrayList<String> list;
+    private ArrayList<String> list=null;
 
     public RecycleviewTowlayoutBaseAdapter(Context context, ArrayList<String> list) {
         this.context = context;
