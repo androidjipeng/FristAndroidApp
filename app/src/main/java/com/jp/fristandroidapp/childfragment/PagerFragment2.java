@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 import com.jp.fristandroidapp.R;
 import com.jp.fristandroidapp.adapter.RecycleviewGridBaseAdapter;
+import com.jp.fristandroidapp.adapter.RecycleviewTowlayoutBaseAdapter;
 import com.jp.fristandroidapp.recycleviewItemdecoration.DividerGridItemDecoration;
 
 import java.util.ArrayList;
@@ -84,19 +85,19 @@ public class PagerFragment2 extends Fragment {
         urls.add("http://7xi8d6.com1.z0.glb.clouddn.com/2017-02-09-16583339_172818256542563_353855393375453184_n.jpg");
         urls.add("http://7xi8d6.com1.z0.glb.clouddn.com/2017-02-08-16230686_191036801373876_4789664128824246272_n.jpg");
 
-        RecycleviewGridBaseAdapter adapter=new RecycleviewGridBaseAdapter(getContext(),urls);
+        RecycleviewTowlayoutBaseAdapter adapter=new RecycleviewTowlayoutBaseAdapter(getContext(),urls);
         recycleview.setAdapter(adapter);
-        adapter.setOnItemClickListener(new RecycleviewGridBaseAdapter.OnRecyclerViewItemClickListener() {
-            @Override
-            public void onItemClick(View view) {
-                Toast.makeText(context,"onItemClick",Toast.LENGTH_SHORT).show();
-            }
-
-            @Override
-            public void onItemLongClick(View view) {
-                Toast.makeText(context,"onItemLongClick",Toast.LENGTH_SHORT).show();
-            }
-        });
+//        adapter.setOnItemClickListener(new RecycleviewGridBaseAdapter.OnRecyclerViewItemClickListener() {
+//            @Override
+//            public void onItemClick(View view) {
+//                Toast.makeText(context,"onItemClick",Toast.LENGTH_SHORT).show();
+//            }
+//
+//            @Override
+//            public void onItemLongClick(View view) {
+//                Toast.makeText(context,"onItemLongClick",Toast.LENGTH_SHORT).show();
+//            }
+//        });
 
     }
 
