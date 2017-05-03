@@ -47,4 +47,12 @@ public class RecycleviewTowlayoutBaseAdapter extends RecyclerView.Adapter<Recycl
     public boolean onLongClick(View v) {
         return false;
     }
+
+    class ViewHodler1 extends RecyclerView.ViewHolder {
+
+        public ViewHodler1(View itemView) {
+            super(itemView);
+        }
+    }
+
 }
