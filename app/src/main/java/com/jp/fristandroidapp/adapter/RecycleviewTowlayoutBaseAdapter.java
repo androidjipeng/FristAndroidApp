@@ -34,6 +34,7 @@ public class RecycleviewTowlayoutBaseAdapter extends RecyclerView.Adapter<Recycl
     }
 
     public enum ITEM_TYPE {
+
         ITEM1,
         ITEM2
     }
