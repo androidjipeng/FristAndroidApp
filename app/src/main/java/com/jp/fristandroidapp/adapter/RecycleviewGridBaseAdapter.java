@@ -42,7 +42,7 @@ public class RecycleviewGridBaseAdapter extends RecyclerView.Adapter<RecyclerVie
     }
 
     //自定义监听事件
-    public static interface OnRecyclerViewItemClickListener {
+    public  interface OnRecyclerViewItemClickListener {
         void onItemClick(View view);
 
         void onItemLongClick(View view);
